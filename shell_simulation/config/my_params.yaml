@@ -1,0 +1,8 @@
+vel_des : 29
+kp : 0.1
+ki : 0.05
+kd : 0.2
+k1 : 1
+ks : 2
+rate : 10
+mode : "p"  # string controling steering control mode

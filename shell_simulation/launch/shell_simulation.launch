@@ -1,0 +1,4 @@
+<launch>
+	<rosparam command="load" file="$(find shell_simulation)/config/my_params.yaml"/> 
+	<node pkg="shell_simulation" type="control.py" name="vehicle_node"></node>
+</launch>
